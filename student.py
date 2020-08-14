@@ -1,9 +1,9 @@
 
 class Student:
 
-    def __init__(self):
-        self.name = "michael jordan"
-        self.student_id = 23
+    def __init__(self, name="michael jordan", student_id=23):
+        self.name = name
+        self.student_id = student_id
 
 
     def __str__(self):
